@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "946034214318",
+    "project_id": "login-registration-7438f",
+    "storage_bucket": "login-registration-7438f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946034214318:android:b715817f886480b045f43f",
+        "android_client_info": {
+          "package_name": "com.example.educationalbook"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbWlY4DOBtqOcvOvaUC36sVA8ypa_yVp8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
