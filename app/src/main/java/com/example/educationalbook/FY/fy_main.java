@@ -17,7 +17,7 @@ import com.example.educationalbook.R;
 
 public class fy_main extends AppCompatActivity {
     ImageView fyback;
-    ImageView bca;
+    ImageView bca; // hello
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
