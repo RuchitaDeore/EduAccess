@@ -11,11 +11,6 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.example.educationalbook.tenth.study_books_10;
-import com.example.educationalbook.twelfth.exam_paper_12;
-import com.example.educationalbook.twelfth.short_notes_12;
-import com.example.educationalbook.twelfth.study_books_12;
-
 public class Twelfth_Books extends AppCompatActivity {
 
     ImageView twback;

@@ -13,6 +13,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.example.educationalbook.FY.fy_main;
 import com.example.educationalbook.login_reg.login;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -56,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
         fy_img.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(),FY_Books.class);
+                Intent i = new Intent(getApplicationContext(), fy_main.class);
                 startActivity(i);
                 finish();
             }

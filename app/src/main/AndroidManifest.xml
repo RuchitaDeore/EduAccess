@@ -15,7 +15,73 @@
         android:theme="@style/Theme.Material3.Dark"
         tools:targetApi="31">
         <activity
-            android:name=".tenth.English_10_sb"
+            android:name=".FY.sb_fy.sb_fy_bca"
+            android:exported="false" />
+        <activity
+            android:name=".FY.fy_ep_sb_sn"
+            android:exported="false" />
+        <activity
+            android:name=".FY.sb_fy.sb_fy_dbms"
+            android:exported="false" />
+        <activity
+            android:name=".FY.sb_fy.sb_fy_os"
+            android:exported="false" />
+        <activity
+            android:name=".FY.sb_fy.sb_fy_acp"
+            android:exported="false" />
+        <activity
+            android:name=".FY.sb_fy.sb_fy_co"
+            android:exported="false" />
+        <activity
+            android:name=".FY.sb_fy.sb_fy_bc"
+            android:exported="false" />
+        <activity
+            android:name=".FY.sb_fy.sb_fy_am"
+            android:exported="false" />
+        <activity
+            android:name=".FY.sb_fy.sb_fy_foc"
+            android:exported="false" />
+        <activity
+            android:name=".FY.sb_fy.sb_fy_cp"
+            android:exported="false" />
+        <activity
+            android:name=".FY.fy_main"
+            android:exported="false" />
+        <activity
+            android:name=".FY.sb_fy.sb_fy_main"
+            android:exported="false" />
+        <activity
+            android:name=".FY.sb_fy.sn_fy.ep_fy.sb_fy_main"
+            android:exported="false" />
+        <activity
+            android:name=".tenth.short_notes_10.Science_10_sn"
+            android:exported="false" />
+        <activity
+            android:name=".tenth.short_notes_10.SST_10_sn"
+            android:exported="false" />
+        <activity
+            android:name=".tenth.short_notes_10.Maths_10_sn"
+            android:exported="false" />
+        <activity
+            android:name=".tenth.short_notes_10.Hindi_10_sn"
+            android:exported="false" />
+        <activity
+            android:name=".tenth.short_notes_10.English_10_sn"
+            android:exported="false" />
+        <activity
+            android:name=".tenth.study_books_10.Science_10_sb"
+            android:exported="false" />
+        <activity
+            android:name=".tenth.study_books_10.SST_10_sb"
+            android:exported="false" />
+        <activity
+            android:name=".tenth.study_books_10.Maths_10_sb"
+            android:exported="false" />
+        <activity
+            android:name=".tenth.study_books_10.Hindi_10_sb"
+            android:exported="false" />
+        <activity
+            android:name=".tenth.study_books_10.English_10_sb"
             android:exported="false" />
         <activity
             android:name=".twelfth.short_notes_12"
@@ -27,13 +93,13 @@
             android:name=".twelfth.study_books_12"
             android:exported="false" />
         <activity
-            android:name=".tenth.short_notes_10"
+            android:name=".tenth.short_notes_10.short_notes_10"
             android:exported="false" />
         <activity
-            android:name=".tenth.exam_paper_10"
+            android:name=".tenth.exam_paper_10.exam_paper_10"
             android:exported="false" />
         <activity
-            android:name=".tenth.study_books_10"
+            android:name=".tenth.study_books_10.study_books_10"
             android:exported="false" />
         <activity
             android:name=".FY_Books"

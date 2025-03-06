@@ -5,18 +5,18 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".tenth.study_books_10.English_10_sb">
+    tools:context=".FY.sb_fy.sb_fy_dbms">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-    <WebView
-        android:layout_width="413dp"
-        android:layout_height="510dp"
-        android:id="@+id/eng_pdf"
-        />
+        <WebView
+            android:layout_width="413dp"
+            android:layout_height="510dp"
+            android:id="@+id/eng_pdf"
+            />
 
         <EditText
             android:id="@+id/eg10_ai"
@@ -46,4 +46,5 @@
 
 
     </LinearLayout>
+
 </ScrollView>

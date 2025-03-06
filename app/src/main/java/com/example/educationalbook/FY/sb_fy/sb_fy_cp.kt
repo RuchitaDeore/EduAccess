@@ -1,6 +1,5 @@
-package com.example.educationalbook.tenth
+package com.example.educationalbook.FY.sb_fy
 
-import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.View
 import android.webkit.WebView
@@ -12,19 +11,18 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import androidx.lifecycle.lifecycleScope
 import com.example.educationalbook.R
 import com.google.ai.client.generativeai.GenerativeModel
-import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.launch
 
-class English_10_sb : AppCompatActivity() {
+class sb_fy_cp : AppCompatActivity() {
     var sb_eng: WebView? = null
 
-    @SuppressLint("SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         this.enableEdgeToEdge()
-        setContentView(R.layout.activity_english10_sb)
-
+        setContentView(R.layout.activity_sb_fy_cp)
         sb_eng = findViewById(R.id.eng_pdf)
 
         sb_eng!!.getSettings().javaScriptEnabled = true
@@ -38,16 +36,19 @@ class English_10_sb : AppCompatActivity() {
 
         eg10_aibtn.setOnClickListener {
             val prompt = eg10_ai.text.toString()
-            val generativeModel = GenerativeModel(
-                modelName = "gemini-pro",
-                apiKey = "AIzaSyCZ-W568tMbiDcsdUWtJMAMGGTIURm36kI"
-            )
-            runBlocking {
-                val response = generativeModel.generateContent(prompt)
-                eg10_res.text = response.text
+            lifecycleScope.launch {
+                try {
+                    val generativeModel = GenerativeModel(
+                        modelName = "gemini-2.0-flash",
+                        apiKey = "AIzaSyCZ-W568tMbiDcsdUWtJMAMGGTIURm36kI"
+                    )
+                    val response = generativeModel.generateContent(prompt)
+                    eg10_res.text = response.text
+                }catch(e:Exception){
+                    eg10_res.text = "error ${e.message}"
+                }
             }
         }
-
         ViewCompat.setOnApplyWindowInsetsListener(
             findViewById(R.id.main)
         ) { v: View, insets: WindowInsetsCompat ->

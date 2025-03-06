@@ -1,10 +1,8 @@
 package com.example.educationalbook;
 
 import android.content.Intent;
-import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 
 import androidx.activity.EdgeToEdge;
@@ -13,9 +11,9 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.example.educationalbook.tenth.exam_paper_10;
-import com.example.educationalbook.tenth.short_notes_10;
-import com.example.educationalbook.tenth.study_books_10;
+import com.example.educationalbook.tenth.exam_paper_10.exam_paper_10;
+import com.example.educationalbook.tenth.short_notes_10.short_notes_10;
+import com.example.educationalbook.tenth.study_books_10.study_books_10;
 
 public class Tenth_Books extends AppCompatActivity {
 

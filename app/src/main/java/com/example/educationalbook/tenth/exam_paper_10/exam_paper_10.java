@@ -1,4 +1,4 @@
-package com.example.educationalbook.tenth;
+package com.example.educationalbook.tenth.exam_paper_10;
 
 import android.content.Intent;
 import android.os.Bundle;
